@@ -25,7 +25,7 @@ export default function Home() {
             Abdessalam Gherghouch
           </h1>
           <p className="font-sans text-lg font-medium text-secondary mb-8">
-            Software Engineer (AI Systems)
+            Software Engineer <span className="font-mono text-primary">{"[ AI Systems ]"}</span>
           </p>
           <div className="flex items-center gap-4 flex-wrap">
             <Link
