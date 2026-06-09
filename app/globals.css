@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: theme('colors.bg');
+  color: theme('colors.secondary');
+}
+
+::selection {
+  background-color: theme('colors.accent');
+  color: theme('colors.bg');
+}
+
+.tw-cursor {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background-color: #00C2A8;
+  vertical-align: -2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
