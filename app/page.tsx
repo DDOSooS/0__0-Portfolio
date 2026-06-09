@@ -24,11 +24,8 @@ export default function Home() {
           <h1 className="font-mono text-5xl md:text-6xl font-bold tracking-tight text-white mb-4">
             Abdessalam Gherghouch
           </h1>
-          <p className="font-sans text-lg font-medium text-secondary">
-            Software Engineer · 1337
-          </p>
-          <p className="font-sans text-base italic text-subtle mt-4 mb-8">
-            &quot;What if it works?&quot;
+          <p className="font-sans text-lg font-medium text-secondary mb-8">
+            Software Engineer (AI Systems)
           </p>
           <div className="flex items-center gap-4 flex-wrap">
             <Link
